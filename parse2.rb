@@ -11,6 +11,6 @@ print_memory_usage do
 			sum += row['id'].to_i
 		end
 
-		puts "Sum: #{sum}"
+		puts "Sum: #{sum}" #no Id column in data2.csv, so sum will not calculate
 	end
 end
